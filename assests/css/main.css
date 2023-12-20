@@ -266,7 +266,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 991.98px) {
     .body{
-        height: 2300px;
+        height: 23  00px;
         background-image: url('../images/mobile.png');
         background-size: 100% 100%;
         background-attachment: fixed;
@@ -286,7 +286,14 @@ input[type="submit"]:hover {
         height: 80px;
         width: 800px;
     }
-    
+    .close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+    }
     .footer {
         bottom: 10;
         left: 0;
