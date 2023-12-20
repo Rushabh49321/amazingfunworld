@@ -269,6 +269,8 @@ input[type="submit"]:hover {
         height: 3000px;
         background-image: url('../images/mobile.png');
         background-size: 100% 100%;
+        background-attachment: fixed;
+        overflow: hidden;
     }
     .logo-img {
         margin-top: 70%;
