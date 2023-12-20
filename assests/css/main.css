@@ -290,7 +290,7 @@ input[type="submit"]:hover {
         position: absolute;
         top: 30px;
         right: 30px;
-        font-size: 40px;
+        font-size: 60px;
         font-weight: bold;
         cursor: pointer;
     }
