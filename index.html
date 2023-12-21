@@ -44,14 +44,15 @@
     </div>     
 
     <!-- Add a popup container -->
-    <div class="popup-container" id="popupContainer">
-        <div class="popup-content">
+    <div class="popup-container" id="popupContainer" onclick="closePopup()">
+        <div class="popup-content" onclick="event.stopPropagation();">
+            <span class="close-btn" onclick="closePopup()"><i class="fa fa-close" style="font-size:30px;color:black"></i></span>
             <!-- Title container -->
             <div class="popup-title" id="popupTitle"></div>
             <!-- Form container -->
             <div class="popup-images" id="popupImages"></div>
             <!-- Close button -->
-            <span class="close-btn" onclick="closePopup()"><i class="fa fa-close" style="font-size:30px;color:white"></i></span>
+            
         </div>
     </div>
     
