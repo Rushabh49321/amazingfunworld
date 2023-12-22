@@ -378,7 +378,6 @@ h1{
     .fancy {
         --w: 140px;
         line-height: 2.4em;
-        width: 200px;
         text-align: center;
     }
     .footer {
