@@ -96,3 +96,15 @@ function sendEmail() {
 
     window.location.href = mailtoLink;
 }
+function openFacebook() {
+    var mapUrl = 'https://www.facebook.com/WorldOfAmazingFun/';
+    window.open(mapUrl, '_blank');
+}
+function openInstagram() {
+    var mapUrl = 'https://www.instagram.com/amazing_fun_world_dwarika/';
+    window.open(mapUrl, '_blank');
+}
+function openYoutube() {
+    var mapUrl = 'https://www.youtube.com/@AMAZINGFUNWORLDRESORT';
+    window.open(mapUrl, '_blank');
+}
