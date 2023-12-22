@@ -75,14 +75,24 @@ function closePopup() {
     document.getElementById("popupContainer").style.display = "none";
 }
 function sendMessage() {
-    
+
     const phoneNumber = '+919427444848';
     const message = 'Hello! I would like to avail the 10% discount.';
-
-    // Construct the WhatsApp API endpoint
     const apiEndpoint = ` https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-   
-
-    // Open the WhatsApp API endpoint in a new tab
     window.open(apiEndpoint, '_blank');
+}
+function callNumber() {
+
+    window.location.href = 'tel:9427444848';
+}
+function showDirections() {
+    var mapUrl = 'https://maps.app.goo.gl/1zRjS1sNAGnr3Cvd7';
+    window.open(mapUrl, '_blank');
+}
+function sendEmail() {
+    var emailAddress = 'jasminawpl@gmail.com';
+
+    var mailtoLink = 'mailto:' + encodeURIComponent(emailAddress);
+
+    window.location.href = mailtoLink;
 }
