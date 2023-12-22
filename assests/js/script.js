@@ -108,3 +108,7 @@ function openYoutube() {
     var mapUrl = 'https://www.youtube.com/@AMAZINGFUNWORLDRESORT';
     window.open(mapUrl, '_blank');
 }
+function openfeedback() {
+    var mapUrl = 'https://www.google.com.np/travel/entity/key/ChoIw_e53Y_cuoyZARoNL2cvMTFtaHhteWNfOBAE?hl=en&gl=np&ictx=1&sa=X&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAEaBAoCGgAqBAoAGgA&rp=OAFIAg&ap=MAA&ved=0CAAQ5JsGahcKEwiQkoae5aKDAxUAAAAAHQAAAAAQBA';
+    window.open(mapUrl, '_blank');
+}
