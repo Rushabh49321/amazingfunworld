@@ -362,7 +362,7 @@ h1 {
 
 @media (max-width: 991.98px) {
     .body {
-        height: 190%;
+        height: 200%;
         background-image: url('../images/mobile.png');
         background-size: 100% 100%;
         position: absolute;
