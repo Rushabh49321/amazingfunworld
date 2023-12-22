@@ -362,7 +362,7 @@ h1 {
 
 @media (max-width: 991.98px) {
     .body {
-        height: 200%;
+        height: 170%;
         background-image: url('../images/mobile.png');
         background-size: 100% 100%;
         position: absolute;
@@ -372,7 +372,7 @@ h1 {
     .logo-img {
         margin-top: 70%;
         width: 50%;
-        margin-bottom: 40%;
+        margin-bottom: 20%;
     }
 
     .button-list {
